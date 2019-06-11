@@ -1,0 +1,21 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      LISTA TOP
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  <div class="ion-padding">
+    <p><b>Nome</b></p>
+    <ion-input [(ngModel)]="contato.nome"></ion-input>
+    <p><b>Telefone</b></p>
+    <ion-input [(ngModel)]="contato.telefone"></ion-input>
+    <ion-button (click)='salvar()' expand="block" color="medium" href="pagina2"> Listar </ion-button>
+    <ion-button expand="block" color="medium" href="home">Voltar</ion-button>
+    <ion-img src="https://lancelivre.pt/wp-content/uploads/2018/02/wcwebsite.jpg"></ion-img>
+
+  </div>
+</ion-content>
